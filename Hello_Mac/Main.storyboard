@@ -683,6 +683,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="ClickedButton:" target="XfG-lQ-9wD" id="zeW-rb-lBj"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-Gs-cCp">
                                 <rect key="frame" x="96" y="231" width="366" height="17"/>
@@ -704,6 +707,9 @@
                             <constraint firstAttribute="trailing" secondItem="ctm-Gs-cCp" secondAttribute="trailing" constant="20" id="hug-Ye-57r"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ClickedLabel" destination="ctm-Gs-cCp" id="DPS-TZ-goZ"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
